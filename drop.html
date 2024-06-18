@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="drop.css">
+</head>
+<body>
+    <div class="cricket">
+        
+            <nav>
+                <h3 style="color: white; padding-left: 20px;">  Steven Smith</h3>
+                     
+                <ul>
+                   
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Stats</a></li>
+                    <li><a href="#">Family</a></li>
+                    <li><a href="#">Medals</a></li>
+                        
+                </ul>
+                <img src="images/steven-smith-1053.png " style="height: 50px; padding-right: 20px; cursor: pointer;"  onclick="togglemenu()">
+
+
+                <div class="profile" id="subMenu">
+                    <div class="profile2">
+                        <div class="user">
+                            <img src="images/steven-smith-1053.png" alt="">
+                            <h3>Steve Smith</h3>
+                        </div>
+                        <hr>
+                        <a href="#" class="s1">
+                            <p>Batting</p>
+                            <span>></span>
+                        </a>
+                        <a href="#" class="s1">
+                            <p>Bowling</p>
+                            <span>></span>
+                        </a>
+                        <a href="#" class="s1">
+                            <p>Catches</p>
+                            <span>></span>
+                        </a>
+                        <a href="#" class="s1">
+                            <p>Run Outs</p>
+                            <span>></span>
+                        </a>
+                        <a href="#"class="s1">
+                            <p>Captain records</p>
+                            <span>></span>
+                        </a>
+                        <a href="#" class="s1">
+                            <p>Wicket Keeping</p>
+                            <span>></span>
+                        </a>
+                    </div>
+                </div>
+               
+            </nav>
+        
+
+    </div>
+    <script>
+        let subMenu = document.getElementById("subMenu");
+
+        function togglemenu(){
+            profiles.classList.toggle("open-menu");
+        }
+    </script>
+</body>
+</html>
